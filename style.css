@@ -1,0 +1,79 @@
+:root {
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --vvverydarkblue: hsl(217, 54%, 11%); /*(main BG)*/
+  --vverydarkblue: hsl(216, 50%, 16%); /*(card BG)*/
+  --verydarkblue: hsl(215, 32%, 27%); /*(line)*/
+  --white: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  color: var(--white);
+  font-family: "Outfit", sans-serif;
+  background-color: var(--vvverydarkblue);
+}
+.card {
+  background-color: var(--vverydarkblue);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 638px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.card p{
+  font-size: 15px;
+  font-weight: 300;
+}
+.between-flex .flex h6 ,.between-flex .flex p{
+  font-size: 13px;
+}
+.between-flex .flex h6 {
+  color: var(--cyan);
+}
+.between-flex .flex p{
+  color: var(--softBlue);
+}
+.imgcontainer {
+  width: 260px;
+}
+.imgcontainer img {
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  align-items: center;
+}
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+}
+.image {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  border: 1px solid var(--white);
+}
