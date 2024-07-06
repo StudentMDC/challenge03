@@ -5,4 +5,4 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
-## 👓 [Preview](https://studentmdc.github.io/portfolio/](https://studentmdc.github.io/challenge03/)
+## 👓 [Preview](https://studentmdc.github.io/challenge03/)
